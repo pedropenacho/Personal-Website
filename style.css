@@ -1,11 +1,10 @@
-/* Main Content Styling */
 html, body {
-    height: 100%;
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Intro content styling */
 #intro {
     display: flex;
     align-items: center;
@@ -63,4 +62,85 @@ html, body {
 
 .links a:hover {
     background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Projects content styling */
+#projects{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.wrap {
+    position: relative;
+}
+
+.slide {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1300px;
+    height: 560px;
+}
+
+.slide1 {background-image: url("img/YelpCamp.png")}
+.slide2 {background-image: url("img/Padatap.png")}
+.slide3 {background-image: url("img/RGB-Game.png")}
+.slide4 {background-image: url("img/Todo\ List.png")}
+.slide5 {background-image: url("img/Survey\ Form.png")}
+.slide6 {background-image: url("img/Tribute\ Page.png")}
+
+.slide-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.slide-content span{
+    position: absolute;
+    bottom: 20px;
+    font-size: 5rem;
+    color: #fff;
+}
+
+.arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+#arrow-left {
+    border-width: 30px 40px 30px 0;
+    border-color: transparent #fff transparent transparent;
+    left: 0;
+    margin-left: 30px;
+}
+
+#arrow-right {
+    border-width: 30px 0px 30px 40px;
+    border-color: transparent transparent transparent #fff;
+    right: 0;
+    margin-right: 30px;
+}
+
+#pause {
+    cursor: pointer;
+    position: absolute;
+    width: 40px;
+    height: 45px;
+    left: 50%;
+    margin-top: 25px;
+    font-size: 2rem;
+    padding: 7px 0px 5px 20px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.4); 
 }
