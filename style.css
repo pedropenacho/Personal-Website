@@ -2,6 +2,7 @@ html, body {
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to top, rgba(231, 240, 245, 1) 0%, rgba(170, 221, 235, 1) 100%);
 }
 
 /* Intro content styling */
@@ -9,7 +10,7 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to bottom, rgba(231, 240, 245, 1) 0%, rgba(170, 221, 235, 1) 100%);
+    /* background: linear-gradient(to bottom, rgba(231, 240, 245, 1) 0%, rgba(170, 221, 235, 1) 100%); */
     height: 100vh;
 }
 
@@ -72,17 +73,19 @@ html, body {
     padding: 0;
     height: 100vh;
     overflow-x: hidden;
+   /*  background-color: #D3D3D3; */
 }
 .wrap {
     position: relative;
+    margin: auto;
 }
 
 .slide {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 1300px;
-    height: 560px;
+    width: 1050px;
+    height: 520px;
 }
 
 .slide1 {background-image: url("img/YelpCamp.png")}
@@ -103,7 +106,7 @@ html, body {
 .slide-content span{
     position: absolute;
     bottom: 20px;
-    font-size: 5rem;
+    font-size: 2rem;
     color: #fff;
 }
 
@@ -134,13 +137,39 @@ html, body {
 #pause {
     cursor: pointer;
     position: absolute;
-    width: 40px;
-    height: 45px;
+    width: 60px;
+    height: 60px;
     left: 50%;
     margin-top: 25px;
     font-size: 2rem;
-    padding: 7px 0px 5px 20px;
     border-radius: 50%;
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.4); 
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
 }
+
+#pause span{
+    margin: auto;
+    padding-bottom: 5px;
+    padding-left: 2px;
+}
+
+/* .indicators-container{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 25px;
+    bottom: 10px;
+    left: 425px;
+}
+
+.dot{
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 3px;
+    border: 2px solid rgba(245, 245, 245, 0.623);
+    border-radius: 50%;
+} */

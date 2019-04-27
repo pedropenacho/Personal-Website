@@ -2,6 +2,7 @@ const sliderImages = document.querySelectorAll(".slide"),
       arrowLeft    = document.querySelector("#arrow-left"),
       arrowRight   = document.querySelector("#arrow-right"),
       pauseButton  = document.querySelector("#pause");
+      // dots         = document.querySelector(".dot");
 
 let currentSlide = 0,
     playing = true,
@@ -47,18 +48,14 @@ function nextSlide(){
 
 //Play
 function playSlideshow(){
-  pauseButton.innerHTML = "||";
-  pauseButton.style.paddingLeft = "22px";
-  pauseButton.style.paddingTop = "7px";
+  pauseButton.innerHTML = "<span><b>||</b></span>";
   playing = true;
   startSlideshow();
 }
 
 //Pause
 function pauseSlideshow() {
-  pauseButton.innerHTML = "&#9658";
-  pauseButton.style.paddingLeft = "15px";
-  pauseButton.style.paddingTop = "10px";
+  pauseButton.innerHTML = "<span><b>&#9658</b></span>";
   playing = false;
   clearTimeout(slideTimer);
 }
