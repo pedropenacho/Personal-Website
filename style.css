@@ -44,27 +44,6 @@ html, body {
     margin-bottom: 2px;
 }
 
-/* Links Styling */
-.links {
-    list-style: none;
-    padding-left: 0px;
-    font-size: 18px;
-}
-
-.links li {
-    display: inline-block;
-    margin-right: 8px;
-}
-
-.links a{
-    text-decoration: none;
-    padding: 4px;
-}
-
-.links a:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
 /* Projects content styling */
 #projects{
     display: flex;
@@ -160,7 +139,20 @@ html, body {
     padding-left: 2px;
 }
 
+/* Links Styling */
+#links{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#links li {
+    display: inline-block;
+    margin-right: 8px;
+}
+
 #logo{
     width: 63px;
     height: 70px;
+    margin: 0 5px;
 }
