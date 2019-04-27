@@ -159,23 +159,3 @@ html, body {
     padding-bottom: 5px;
     padding-left: 2px;
 }
-
-/* .indicators-container{
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 25px;
-    bottom: 10px;
-    left: 425px;
-}
-
-.dot{
-    cursor: pointer;
-    height: 12px;
-    width: 12px;
-    margin: 3px;
-    border: 2px solid rgba(245, 245, 245, 0.623);
-    border-radius: 50%;
-} */

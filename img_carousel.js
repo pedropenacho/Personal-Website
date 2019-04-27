@@ -2,7 +2,6 @@ const sliderImages = document.querySelectorAll(".slide"),
       arrowLeft    = document.querySelector("#arrow-left"),
       arrowRight   = document.querySelector("#arrow-right"),
       pauseButton  = document.querySelector("#pause");
-      // dots         = document.querySelector(".dot");
 
 let currentSlide = 0,
     playing = true,
