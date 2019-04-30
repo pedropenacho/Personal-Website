@@ -122,7 +122,7 @@ h2{
     font-size: 2rem;
     font-weight: bold;
     color: white;
-    text-align: center
+    text-align: center;
 }
 
 .slide-content{
@@ -192,6 +192,7 @@ h2{
 
 /* Links Styling */
 #links{
+    margin-top: 50px;
     display: flex;
     justify-content: center;
 }
